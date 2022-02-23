@@ -1,5 +1,5 @@
 package automovil;
-
+//vió?
 public class AutoMovil {
     //Atributos
     String color, marca, modelo;
