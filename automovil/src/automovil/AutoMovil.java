@@ -9,11 +9,19 @@ public class AutoMovil {
     void arrancar(){
         System.out.println("Vehículo encendido");
     }
-    void acelerar(){
-        System.out.println("Nos fuimos ma' niño..");
+    String acelerar(int km){
+       km*=3;//km =km *3
+
+     return "El vehículo se desplaza a "+ km + " por hora";
+
     }
-    void girar(){
-        System.out.println("Mera vuelta pa'");
+
+
+
+
+    String girar(int dir){
+      return  (dir==1?"Derecha":"Izquierda");
+
     }
     void frenar(){
         System.out.println("El vehículo se ha detenido");
